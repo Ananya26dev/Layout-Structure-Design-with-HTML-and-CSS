@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-size: 34px;
+    background-color: rgb(18, 173, 18);
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+    width: 100%;
+}
+.main-nav{
+    background-color: rgb(10, 136, 98);
+    font-weight: 600;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+}
+footer{
+    text-align: center;
+    background-color: teal;
+    font-weight: 600;
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    gap: 5px;
+    width: 20%;
+}
+.search,.social-media{
+    height: 150px;
+    background-color: rgb(23, 130, 218);
+    padding: 5px;
+}
+.newsletter{
+    height: 150px;
+    background-color: rgb(32, 109, 211);
+    padding: 5px;
+}
+.center-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10px 0;
+}
+.banner{
+    height: 100px;
+    background-color: coral;
+    padding-top: 10px;
+}
+.copy{
+    height: 50px;
+    background-color: rgb(206, 88, 88);
+    padding-top: 10px;
+}
+.product{
+    height: 100px;
+    background-color: rgb(241, 59, 53);
+    padding-top: 10px;
+}
+.blog{
+    height: 150px;
+    background-color: rgb(250, 118, 113);
+    padding-top: 10px;
+}
+.right-container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 10px 0;
+}
+.up-container,.down-container{
+    display: flex;
+    width: 100%;
+}
+.side-nav{
+    width: 50%;
+    height: 310px;
+    text-align: center;
+    padding: 5px;
+    background-color: yellow
+}
+.category-container{
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    height: 310px;
+    text-align: center;
+    margin-right: 10px;
+}
+.other-offers{
+    width: 100%;
+    height: 135px;
+    margin-top: 10px;
+    background-color: rgb(236, 214, 11)
+}
+.category-bg1{
+    width: 100%;
+    height: 62px;
+    background-color: yellow
+}
+.category-bg2{
+    width: 100%;
+    height: 62px;
+    background-color: rgb(236, 214, 11)
+}
+.category-bg3{
+    width: 100%;
+    height: 62px;
+    background-color: #f1ee3a
+}
+.category-bg4{
+    width: 100%;
+    height: 62px;
+    background-color: #ecd60b
+}
+.category-bg5{
+    width: 100%;
+    height: 62px;
+    background-color: #f1e256
+}
+@media (max-width: 1024px){
+    .left-container {
+        width: 18%;
+    }
+}
+@media (max-width: 600px){
+    .center-container {
+        width: 50%;
+    }
+    .right-container{
+        width: 28%;
+    }
+    .side-nav,.search,.newsletter,.social-media{
+        writing-mode: vertical-lr;
+    }
+    .category-bg1{
+        font-size: 12px;
+        text-align: center;
+        writing-mode: vertical-lr;
+    }
+}

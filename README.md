@@ -1,0 +1,3 @@
+Layout Structure Design with HTML and CSS
+
+This project demonstrates the creation of a structured webpage layout using HTML and CSS. The design includes distinct sections such as a header, main navigation, banner, content area (with products, blog, and copies), side navigation, categories, and footer. Each section is color-coded for clarity, showcasing layout concepts and responsive web development skills.
